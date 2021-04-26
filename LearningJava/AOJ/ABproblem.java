@@ -7,6 +7,10 @@ public class ABproblem {
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        System.out.println(a / b + " " + a % b + " " + (float)a / (float)b);
+        int d = a / b;
+        int r = a % b;
+        double f = (double)a / (double)b;
+        
+        System.out.println(d + " " + r + " " + String.format("%.8f", f)); // String.formatメソッドによる表示桁数の指定
     }
 }
