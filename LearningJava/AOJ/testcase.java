@@ -16,5 +16,7 @@ class testcase {
                 break;
             }
         }
+
+        sc.close();
     }
 }

@@ -27,5 +27,7 @@ public class swappingTwoNumbers {
             
         }
         
+        sc.close();
+
     }
 }
