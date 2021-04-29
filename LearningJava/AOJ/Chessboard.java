@@ -31,7 +31,6 @@ public class Chessboard {
                                     System.out.print(".");
                                 }
                                 
-                                
                             }
                         
                         }
