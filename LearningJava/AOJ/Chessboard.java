@@ -13,39 +13,57 @@ public class Chessboard {
                 break;
             }else {
                 for (int j = 1; j <= H; j++) {
-
-                    for ( int k = 1; k<= W; k++) {
+                    if (j % 2 == 0) {
+                        for ( int k = 1; k<= W; k++) {
                     
-                        if(k == W) {
-                            if (k % 2 == 0) {
-                                System.out.print(".");
-                                System.out.println("");
+                            if(k == W) {
+                                if (k % 2 == 0) {
+                                    System.out.print("#");
+                                    System.out.println("");
+                                }else {
+                                    System.out.print(".");
+                                    System.out.println("");
+                                }
                             }else {
-                                System.out.print("#");
-                                System.out.println("");
+                                if (k % 2 == 0){
+                                    System.out.print("#");
+                                }else {
+                                    System.out.print(".");
+                                }
+                                
+                                
                             }
-                        }else {
-                            if (k % 2 == 0){
-                                System.out.print(".");
-                            }else {
-                                System.out.print("#");
-                            }
-                            
-                            
+                        
                         }
+                    }else {
+                        for ( int k = 1; k<= W; k++) {
                     
+                            if(k == W) {
+                                if (k % 2 == 0) {
+                                    System.out.print(".");
+                                    System.out.println("");
+                                }else {
+                                    System.out.print("#");
+                                    System.out.println("");
+                                }
+                            }else {
+                                if (k % 2 == 0){
+                                    System.out.print(".");
+                                }else {
+                                    System.out.print("#");
+                                }
+                                
+                                
+                            }
+                        
+                        }
                     }
-                
                 if ( j == H) {
                     System.out.println("");
                 }
                 
                 }
-            }   
-            
-            
+            }      
         }
-
     }
-
 }
