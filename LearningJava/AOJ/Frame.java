@@ -35,7 +35,7 @@ public class Frame {
                                 System.out.print("#");
                             }
                             else { //通常の入力
-                                System.out.print(" ");
+                                System.out.print(".");
                             }
                         
                         }
