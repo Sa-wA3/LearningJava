@@ -4,7 +4,7 @@ class ReversingNumbers {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(system.in);
+        Scanner sc = new Scanner(System.in);
         
         int arrLen = sc.nextInt();
         
@@ -18,9 +18,9 @@ class ReversingNumbers {
         for (int j = 0; j < numbers.length; j++) {
             
             if (j == numbers.length -1) {
-                System.out.print(numbers[arrLen - j]);
+                System.out.println(numbers[arrLen -1 - j]);
             }else {
-                System.out.print(numbers[arrLen - j] + " ");   
+                System.out.print(numbers[arrLen - 1 - j] + " ");   
             }
             
         }
